@@ -1,0 +1,47 @@
+.Container{
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1250px;
+}
+.TopBar{
+  width: 100%;
+  height: 25px;
+  position: relative;
+  background-color: rgb(235, 223, 223);
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+  font-family: cursive;
+  color: rgb(90 90 90);
+  font-size: x-small;
+}
+
+.TopBar ul{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.TopBar ul li{
+
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
+.TopBar ul li .custom-icon{
+  margin: 0 8px 0 14px;
+color:#007be5;
+font-size: small;
+}
+.TopBar ul li:nth-child(1):before {
+  content:none;
+}
+.TopBar ul li::before{
+  content:"";
+  position: absolute;
+  height: 60%;
+  width: 1px;
+  background-color: black;
+}

@@ -1,0 +1,12 @@
+.carousel {
+    width: 800px; /* Set your desired width */
+    height: 400px; /* Set your desired height */
+    overflow: hidden; /* Prevent overflow */
+    margin-top: 20px;
+  }
+  
+  .carousel-image {
+    width: 100%; /* Make the image take full width of the carousel */
+    height: 100%; /* Make the image take full height of the carousel */
+    object-fit: cover; /* Cover the area without distortion */
+  }
